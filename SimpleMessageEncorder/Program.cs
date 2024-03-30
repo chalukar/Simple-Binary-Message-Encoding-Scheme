@@ -30,7 +30,7 @@ namespace SimpleMessageEncorder
                 {
                     { "Content-Type", "ASCII/Byte" }
                 },
-                Payload = Encoding.ASCII.GetBytes("{\"message\":\"Simple Message Encode Scheme\"}")
+                Payload = Encoding.ASCII.GetBytes("{\"message\":\"Simple Binary Message Encode Scheme\"}")
             };
         }
 
