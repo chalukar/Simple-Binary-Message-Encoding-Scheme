@@ -11,9 +11,9 @@ namespace SimpleMessageEncorder.Codes
     public class BinaryMessageCodes : IMessageCodes
     {
         //Message limits
-        private const int MaxHeaderSize = 1023;
-        private const int MaxHeaderCount = 63;
-        private const int MaxPayloadSize = 256 * 1024;
+        public const int MaxHeaderSize = 1023;
+        public const int MaxHeaderCount = 63;
+        public const int MaxPayloadSize = 256 * 1024;
 
         public byte[] Encode(Message msg)
         {
@@ -39,7 +39,6 @@ namespace SimpleMessageEncorder.Codes
                 //Encode header
                 foreach(var pair in msg.Headers)
                 {
-                    //EncodeString(ms, header.Key, header.Value);
                     EncodeString(ms, pair.Key);
                     EncodeString(ms, pair.Value);
                 }
