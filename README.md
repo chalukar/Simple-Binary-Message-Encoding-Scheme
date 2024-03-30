@@ -1,1 +1,1 @@
-# SimpleMessageEncorder
+# Simple Message Encorder
