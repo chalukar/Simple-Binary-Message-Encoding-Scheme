@@ -1,4 +1,4 @@
-# Simple Message Encorder
+# Simple Binary Message Encoder
 
 Description:
 Simple Message Encoder is a lightweight library designed to encode and decode binary messages for use in signaling protocols. It provides a simple and efficient way to pass messages between peers in real-time communication applications.
